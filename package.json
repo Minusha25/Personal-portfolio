@@ -22,8 +22,7 @@
     "popper.js": "^1.16.1"
   },
   "description": "demo app for COMP229 Week 3",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Week3.git"
@@ -33,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/tsiliopoulos/COMP229-F2020-Week3/issues"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Week3#readme"
+  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Week3#readme",
+  "devDependencies": {}
 }

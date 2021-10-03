@@ -1,0 +1,76 @@
+<html>
+<body style="background-color:aquamarine;">
+    <%- include partials/header.ejs %>
+    <%- include partials/main_nav.ejs %>  
+
+
+<div class="contact">
+
+    <div class="container">
+      
+    
+      <div class="service-head one text-center">
+                <h4>CONTACT ME AT</h4>
+                <span class="border two"></span>
+              </div>
+        <div class="mail_us">
+          <div class="col-md-6 mail_left">
+            <div class="contact-grid1-left">
+              <div class="contact-grid1-left1">
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                <h4>Email</h4>
+                <ul>
+                  <li>Mail to: <a href="mailto:minusha.shaik@gmail.com">minusha.shaik@gmail.com</a></li>
+                </ul>
+              </div>
+            </div>
+              <div class="contact-grid1-left">
+                <div class="contact-grid1-left1">
+                  <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                  <h4>Contact Number</h4>
+                  <ul>
+                    <li>Phone: +1 647 491 2527</li>
+                 </ul>
+                </div>
+              </div>
+              <div class="contact-grid1-left">
+                <div class="contact-grid1-left1">
+                  <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                  <h4>Postal Address</h4>
+                  
+                     <li>Address: Bay mills,</li>
+                     <li>Scarborough, Ontario, Canada.</li>
+                     <li>Postal code:M1T 3P4</li>
+                  
+                </div>
+              </div>
+            <div class="clearfix"> </div>
+        
+          
+        </div>
+    </div>
+      
+    
+      <%- include partials/footer.ejs %>
+      <div class="col-md-6 mail_right">
+        <h4>Please leave your details for us to contact</h4>
+        
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email id:</label><br>
+            <input type="email" id="Email" name="Email"><br>
+            <label for="Mobile">Mobile Number:</label><br>
+            <input type="number" id="Mobile number" name="Mobile number" required=""><br>
+            <label for="message">Type your message:</label><br>
+            <input type="text" id= "message" name="Message..." required=""><br>
+            <input type="submit" value="Submit">
+          
+        </form>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    </body>
+    </html>
