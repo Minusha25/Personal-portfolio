@@ -18,7 +18,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use('/static', express.static('public'));
+app.use('/static', express.static('public'));//adds middleware for static files to serve images ,CSS and JavaScript files 
 app.use('/static', express.static('Assets'));
 app.use('/static', express.static('images'));
  app.use(express.static(path.join(__dirname, 'public')));
