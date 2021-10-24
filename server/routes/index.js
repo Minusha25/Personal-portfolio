@@ -1,3 +1,8 @@
+/* 
+Student Name : Minusha Shaik
+Student ID: 301146227
+
+*/
 let express = require('express');
 let router = express.Router();
 
@@ -6,34 +11,33 @@ let indexController = require('../controllers/index');
 /* GET home page. */
 router.get('/', indexController.displayHomePage);
 
-/* GET home page. */
 router.get('/home', indexController.displayHomePage);
 
-/* GET About Us page. */
+/* GET about page. */
 router.get('/about', indexController.displayAboutPage);
 
-/* GET Products page. */
-router.get('/products', indexController.displayProductsPage);
+/* GET products page. */
+router.get('/projects', indexController.displayProjectsPage);
 
-/* GET Services page. */
+/* GET services page. */
 router.get('/services', indexController.displayServicesPage);
 
-/* GET Contact Us page. */
+/* GET contact page. */
 router.get('/contact', indexController.displayContactPage);
 
-/* GET Route for displaying the Login page */
+// Get route for displaying login page
 router.get('/login', indexController.displayLoginPage);
 
-/* POST Route for processing the Login page */
+// Post route for processing login page
 router.post('/login', indexController.processLoginPage);
 
-/* GET Route for displaying the Register page */
+// Get route for displaying register page
 router.get('/register', indexController.displayRegisterPage);
 
-/* POST Route for processing the Register page */
+// Post route for processing login page
 router.post('/register', indexController.processRegisterPage);
 
-/* GET to perform UserLogout */
+// Get to perform logout
 router.get('/logout', indexController.performLogout);
 
 module.exports = router;

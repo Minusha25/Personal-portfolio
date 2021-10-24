@@ -42,16 +42,16 @@
     "@types/passport-local": "^1.0.33",
     "@types/passport-local-mongoose": "^4.0.13"
   },
-  "description": "A demo app for COMP229 Week 6",
+  "description": "Assignment_2 ",
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsiliopoulos/COMP229-F2020-Lesson6.git"
+    "url": "git+https://github.com/Minusha25/Personal-portfolio.git"
   },
-  "author": "Tom Tsiliopoulos",
+  "author": "Minusha Shaik",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6/issues"
+    "url": "https://github.com/Minusha25/Personal-portfolio.git/issues"
   },
-  "homepage": "https://github.com/tsiliopoulos/COMP229-F2020-Lesson6#readme"
+  "homepage": "https://github.com/Minusha25/Personal-portfolio.git#readme"
 }
