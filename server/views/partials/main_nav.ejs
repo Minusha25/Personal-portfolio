@@ -12,25 +12,15 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-
-          
-        <% if (title == "Home"){ %>
-          <li class="nav-item active">
-          <% } else  { %>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-          <% } %>
-            <a class="nav-link" href="/home"><i class="fas fa-lg fa-laptop-house"></i> Home </a>
-          </li>
-  
-          <!-- <li class="nav-item">
           <% if (title == "Home") { %> 
             <a class="nav-link active" href="/home"><i class="fas fa-home"></i> Home</a>
           <% } else { %> 
             <a class="nav-link" href="/home"><i class="fas fa-home"></i> Home</a>
            <% } %>  
-          </li> -->
-          
+          </li>
+
           <li class="nav-item">
             <% if (title == "About") { %> 
               <a class="nav-link active" href="/about"><i class="fas fa-info"></i> About</a>
